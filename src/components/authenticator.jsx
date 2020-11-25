@@ -28,7 +28,7 @@ const Authenticator = () => {
           setAuthentication(false);
         });
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, history]);
 
   if (isAuthenticated === undefined) {
     return (

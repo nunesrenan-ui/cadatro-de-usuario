@@ -32,7 +32,7 @@ const FeedBackList = () => {
 
   useEffect(() => {
     getFeedback();
-  }, [feedback]);
+  });
 
   const columns = [
     {
